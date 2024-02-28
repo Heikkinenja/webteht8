@@ -5,7 +5,7 @@ const description_span = document.querySelector('#description')
 const icon_img = document.querySelector('img')
 const url = 'https://api.openweathermap.org/data/2.5/weather?'
 const icon_url = 'https://openweathermap.org/img/wn/'
-const api_key = 'a90a46030afdf8a0c2380031760bf89a'
+const api_key = ''
 
 const getLocation = () => {
     if (navigator.geolocation) {
